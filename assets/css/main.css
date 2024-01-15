@@ -1331,17 +1331,25 @@ body.is-preload #bg:before {
   #wrapper {
     padding: 3rem 2rem;
   }
-}
+
 
 @media screen and (max-width: 736px) {
   #wrapper {
     padding: 2rem 1rem;
+  }
+  #bg:before {
+    width: 736px;
+    background-position: right, center;
   }
 }
 
 @media screen and (max-width: 480px) {
   #wrapper {
     padding: 1rem;
+  }
+  #bg:before {
+    width: 480px;
+    background-position: right, center;
   }
 }
 
